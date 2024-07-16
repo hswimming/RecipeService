@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+* {
+    font-family: "Do Hyeon", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+.popup {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+    text-align: center;
+}
+
+.popup h2 {
+    color: #ffc524;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #1a2867;
+}
+
+#plusMoney {
+    border: 2px solid #ffc524;
+}
+
+input[type="number"], input[type="button"] {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+input[type="number"] {
+    width: calc(100% - 80px);
+}
+
+input[type="button"] {
+    width: 40%;
+    background-color: #1a2867;
+    color: #ffc524;
+}
+
+#close_btn {
+    background-color: #1a2867;
+    color: #ffc524;
+}
+
+#close_btn {
+    padding: 10px 20px;
+    /* background-color: #ccc; */
+    /* color: #333; */
+    /* border: none; */
+    background-color: #1a2867;
+    color: #ffc524;
+    border-radius: 15px;
+    cursor: pointer;
+}

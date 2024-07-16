@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+* {
+    font-family: "Do Hyeon", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.recipe_container {
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.recipe_inner_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: opacity 0.5s ease;
+}
+
+.item:hover img {
+    opacity: 0.5;
+}
+
+.item h2 {
+    /* color: #ffc524; */
+    color: #1a2867;
+    margin-bottom: 5px;
+}
+
+.item p {
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.item:hover img {
+    opacity: 0.5;
+}
+
+.item .price {
+    font-size: 17px;
+    font-weight: bold;
+    color: #ffc524;
+    /* color: #1a2867; */
+}
+
+.item button {
+    /* background-color: #ffbd69; */
+    /* color: #ffffff; */
+    background-color: #1a2867;
+    color: #ffc524;
+    border: none;
+    border-radius: 15px;
+    padding: 7px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 5px;
+}
+
+.item button:hover {
+    background-color: #ffc524;
+    color: #1a2867;
+}
+
+.empty_search {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.empty_search img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
